@@ -1,0 +1,32 @@
+.liveCard{
+    border-radius: 20px;
+    position: relative;
+    width: 100% !important;
+    height: 220px !important;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .bottom-container{
+        position: absolute;
+        background-color: #ffb61e;
+        border-radius: 10px;
+        bottom: -62px;
+       // right: 15px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        h5{
+            margin: 0;
+            font-weight: 700;
+        }
+        p{
+            font-family: 'Cairo', sans-serif !important;
+            color: white;
+            margin: 0;
+        }
+    }
+}

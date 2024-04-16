@@ -1,0 +1,39 @@
+.buttonup{
+margin-top: 25px;
+   
+ background-color: #ffb61e;
+}
+/* account.css */
+
+/* Your existing styles for larger screens */
+
+/* Center the form within its parent */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height to 100% of the viewport height for centering */
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 767px) {
+    .form-container {
+      height: auto; /* Auto height for smaller screens */
+    }
+  
+    .col-md-6 {
+      width: 80%; /* Adjust the width for better responsiveness on small screens */
+    }
+  
+    .form-control {
+      width: 100%; /* Make the form inputs take up the full width */
+      margin-bottom: 10px; /* Add some space between inputs */
+    }
+  
+    .btn {
+      width: 100%; /* Make the button take up the full width */
+    }
+  
+    /* Add more mobile-specific styles as needed */
+  }
+  

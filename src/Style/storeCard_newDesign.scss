@@ -1,0 +1,36 @@
+.Card-container{
+    display: flex;
+    //background-color: red;
+    width: 600px;
+    padding: 10px;
+.img-container
+{
+    flex: 1;
+    //background-color: aquamarine;
+
+    img{
+        width: 100%;
+    }
+}
+.info{
+    flex: 2;
+   // background-color: blueviolet;
+.product_price{
+    font-weight: 700;
+}
+.product_desc{
+    height: 70px;
+}
+.grid-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+}
+
+}
+
+@media (max-width: 768px){
+    
+}

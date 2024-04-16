@@ -1,0 +1,63 @@
+.user .user_info {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  flex-direction: row-reverse;
+  padding: 0 0 10px;
+}
+.user .user_info img {
+  width: 250px;
+}
+.user .user_info .user_name {
+  text-transform: capitalize;
+  margin: 0 10px;
+}
+.user .user_copones {
+  margin: 30px 0;
+}
+.user .user_copones .copone_tap {
+  display: flex;
+}
+.user .user_copones .copone_head {
+  text-transform: capitalize;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  cursor: pointer;
+}
+.user .user_copones .copone,
+.user .user_copones .cancel {
+  margin: 10px 6px;
+  padding: 14px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user .user_copones .copone svg,
+.user .user_copones .cancel svg {
+  font-size: 25px;
+}
+.user .user_copones .copone {
+  background-color: #ffb61e;
+}
+.user .user_copones .cancel {
+  background-color: rgba(255, 0, 0, 0.7294117647);
+}
+.user .order {
+  margin: 20px 0;
+}
+.user .order .order_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user .order .order_content {
+  background-color: #eee;
+  padding: 10px;
+  margin: 10px 0;
+}
+.user .order .order_content img {
+  width: 160px;
+}
+.user .order .order_content .product_title {
+  font-size: 16px;
+}/*# sourceMappingURL=Profile.css.map */

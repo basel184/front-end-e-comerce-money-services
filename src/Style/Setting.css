@@ -1,0 +1,24 @@
+.setting {
+  padding: 20px 0;
+}
+.setting .setting_tap .tap {
+  margin-top: 4px;
+  cursor: pointer;
+}
+.setting .setting_tap .data,
+.setting .setting_tap .password {
+  margin: 10px 0;
+}
+.setting .input_group {
+  display: block;
+  margin: 10px 0;
+}
+.setting .input_group label, .setting .input_group input {
+  margin: 4px 0;
+  display: block !important;
+}
+.setting button {
+  background-color: #ffb61e;
+  border: none;
+  width: 168px;
+}/*# sourceMappingURL=Setting.css.map */

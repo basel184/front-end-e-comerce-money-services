@@ -1,0 +1,227 @@
+.container table {
+  background-color: #eee;
+  padding: 10px;
+  display: block;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  text-align: center;
+  width: 100%;
+}
+.container table td {
+  margin: 0 4px;
+}
+.container table thead,
+.container table tbody {
+  padding: 10px;
+}
+.container table thead tr,
+.container table tbody tr {
+  border-bottom: 1px solid #ddd;
+  margin: 10px 0;
+  display: block;
+}
+.container table thead tr td,
+.container table tbody tr td {
+  margin: 0 20px;
+  display: inline-block;
+  max-width: 100px;
+}
+.container .discount_form form {
+  width: 100%;
+}
+.container .discount_form form input,
+.container .discount_form form button {
+  padding: 10px;
+}
+.container .discount_form form input {
+  border-color: #ddd;
+}
+.container .discount_form form input:focus {
+  outline: none;
+}
+.container .discount_form form button {
+  background-color: #ffb61e;
+  border-color: #ffb61e;
+  color: white;
+}
+.container .cart_img img {
+  width: 120px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.container .cart_title {
+  font-size: 14px;
+}
+.container .cart_count {
+  background-color: #fff;
+  color: #ffb61e;
+}
+.container .cart_count input {
+  width: 40px;
+  background-color: transparent;
+  border: none;
+}
+.container .cart_count input:focus {
+  outline: none;
+}
+.container .cart_count button {
+  margin: 0 4px;
+  background-color: #fff;
+  border: none;
+  color: #ffb61e;
+}
+.container .remove_btn {
+  color: #ffb61e;
+  cursor: pointer;
+}
+.container .container {
+  margin: 20px 0;
+}
+.container .container .cart_details {
+  background: #eee;
+  padding: 15px;
+  border-radius: 4px;
+  width: 100%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.container .container .cart_details .product_details,
+.container .container .cart_details .delivery_details,
+.container .container .cart_details .discount_details,
+.container .container .cart_details .cart_total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .container .cart_details .cart_button {
+  background-color: #ffb61e;
+  width: 100%;
+  border: none;
+  color: #fff;
+  margin: 6px 0;
+}
+.container .container .home-slide {
+  width: 100%;
+}
+.container .container .home-slide h1 {
+  font-size: 16px;
+}
+.container .container .home-slide h5 {
+  font-size: 12px;
+}
+.container .container .home-slide img {
+  width: 200px;
+}
+.container .container .swiper .swiper-button-prev,
+.container .container .swiper .swiper-button-next {
+  color: #ffb61e;
+}
+.container .container .swiper .box {
+  padding: 0 16px;
+}
+
+.overly {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+@media only screen and (max-width: 767px) {
+  .overly .box {
+    width: 100%!important;
+  }
+  
+}
+.overly .box {
+  position: absolute;
+  margin: 30px 0;
+  overflow-y: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.overly .box .form_control {
+  display: block;
+  margin: 10px 0;
+}
+.overly .box .form_control form {
+  width: 100%;
+}
+.overly .box .form_control input,
+.overly .box .form_control label {
+  display: block;
+  width: 100%;
+}
+.overly .box .form_control input:focus {
+  outline: none;
+}
+.overly .box .pay_operation {
+  display: flex;
+  text-align: center;
+}
+.overly .box .pay_operation .pay_action_credit,
+.overly .box .pay_operation .pay_action_money {
+  background-color: #ffb61e;
+  margin: 0px 15px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 193px;
+}
+.overly .box .pay_operation svg {
+  font-size: 25px;
+}
+.overly .box .pay_operation h4 {
+  font-size: 16px;
+}
+.overly .box .pay_operation .active {
+  background-color: rgba(255, 184, 30, 0.6235294118);
+}
+.overly .box .credit {
+  margin-top: 10px;
+}
+.overly .box .credit input,
+.overly .box .credit label {
+  display: block;
+}
+.overly .box .credit input {
+  width: 100%;
+}
+.overly .box .credit input:focus {
+  outline: none;
+}
+.overly .box .credit .form_group {
+  display: flex;
+  justify-content: space-between;
+}
+.overly .box .pay_confirm {
+  background-color: #ffb61e;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+}
+.overly .box .close_btn {
+  position: absolute;
+}/*# sourceMappingURL=cart.css.map */

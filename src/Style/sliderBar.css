@@ -1,0 +1,26 @@
+.imgProfile{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 767px) {
+.circle-photo{
+    right: 78px!important;
+    top: 17px!important;
+}
+}
+.circle-photo{
+    position: absolute;
+    top: 47px;
+    right: 50px;
+    z-index: 1;
+}
+.copones{
+width: 100px;
+height: 200px;
+background-color: blueviolet;
+
+}
+p ,h6 {
+    cursor: pointer;
+}

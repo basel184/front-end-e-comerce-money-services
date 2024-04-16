@@ -1,0 +1,281 @@
+.modal-btn-close {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content img {
+  width: 80%;
+  height: 350px;
+}
+.modal-content #sorry {
+  color: #FFA81E;
+  font-family: "Cairo", sans-serif !important;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 20px 0 0 0;
+}
+.modal-content #no-Cop {
+  font-family: "Cairo", sans-serif !important;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+  margin: 10px 0;
+}
+.modal-content .modal-msg {
+  font-family: "Cairo", sans-serif !important;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: black;
+  margin: 5px 0;
+}
+
+.card-container {
+  margin: -20px 0 120px 0;
+}
+.card-container .copun-card {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+  margin-bottom: 60px;
+  padding: 15px 0 0 0;
+}
+.card-container .copun-card .card-inside {
+  display: flex;
+  background-color: #F6F7F8;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  position: relative;
+}
+.card-container .copun-card .card-inside #card-time {
+  position: absolute;
+  /*             left: 40px;
+   */
+  top: 20px;
+  width: 200px;
+  background-color: #FFA81E;
+  border-radius: 20px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container .copun-card .card-inside #card-time #time-head {
+  font-family: "Cairo", sans-serif !important;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0;
+}
+.card-container .copun-card .card-inside #card-time span {
+  font-size: 12px;
+  color: white;
+  margin-bottom: 2px;
+}
+.card-container .copun-card .card-inside .inside-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container .copun-card .card-inside .inside-right .cop-image {
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-container .copun-card .card-inside .inside-left {
+  flex: 2;
+}
+.card-container .copun-card .card-inside .inside-left #cardHead {
+  font-size: 60px;
+  font-weight: 700;
+  color: #FFA81E;
+  margin-bottom: 8px;
+}
+.card-container .copun-card .card-inside .inside-left #cardReward {
+  font-weight: 700;
+  color: black;
+}
+.card-container .copun-card .card-inside .inside-left #cardPara {
+  font-family: "Cairo", sans-serif !important;
+  font-size: 2rem;
+  color: black;
+  margin: 0px;
+}
+.card-container .copun-card .card-inside .inside-left #card-price {
+  color: #FFA81E;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.card-container .copun-card .card-inside .inside-left .cop-links {
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.card-container .copun-card .card-inside .inside-left .cop-links #det-link {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-weight: 700;
+  color: black;
+}
+.card-container .copun-card .card-inside .inside-left .cop-links #cart-link {
+  background-color: #FFA81E;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 35px;
+  border: none;
+}
+
+.counter-subs {
+  background-color: #ffb61e;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.counter-subs span {
+  margin: 0 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 10px;
+}
+.counter-subs button {
+  outline: 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 10px;
+}
+
+#confirm-sub-btn {
+  background-color: #ffb61e;
+  color: white;
+  border: none;
+  outline: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 120px;
+  border-radius: 15px;
+}
+
+@media (max-width: 600px) {
+  #confirm-sub-btn {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px 0;
+    padding: 30px 90px;
+  }
+  #no-Cop {
+    font-size: 1.1rem !important;
+    font-weight: 700;
+    margin: 15px 0 !important;
+  }
+  .modal-msg {
+    font-size: 1rem !important;
+    margin: 1px;
+  }
+}
+@media (max-width: 1000px) {
+  .copun-card {
+    height: 540px !important;
+  }
+  .card-inside {
+    /*         display: flex;
+            background-color: #F6F7F8;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            position: relative;
+     */
+    padding: 0 25px;
+    flex-direction: column;
+  }
+  .card-inside #card-time {
+    top: 255px !important;
+  }
+  .card-inside #card-time #time-head {
+    font-size: 1.2rem !important;
+  }
+  .card-inside #card-time span {
+    font-size: 12px;
+    color: white;
+    margin-bottom: 2px;
+  }
+  .card-inside .inside-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-inside .inside-right .cop-image {
+    max-width: 300px;
+    max-height: 80%;
+    border-radius: 20px;
+  }
+  .card-inside .inside-left {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+  }
+  .card-inside .inside-left #cardHead {
+    font-size: 30px;
+    margin: 0;
+  }
+  .card-inside .inside-left #cardReward {
+    margin-top: 5px;
+    font-size: 1.5rem;
+  }
+  .card-inside .inside-left #cardPara {
+    font-size: 1.3rem !important;
+  }
+  .card-inside .inside-left #card-price {
+    color: #FFA81E;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .card-inside .inside-left .cop-links {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .card-inside .inside-left .cop-links #det-link {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 700;
+    color: black;
+  }
+  .card-inside .inside-left .cop-links #cart-link {
+    background-color: #FFA81E;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 35px;
+    border: none;
+  }
+}/*# sourceMappingURL=copun-container.css.map */

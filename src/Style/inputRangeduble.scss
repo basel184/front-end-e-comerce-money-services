@@ -1,0 +1,74 @@
+// .horizontal-slider {
+//   // background-color: red;
+//   height: 30px;
+//   width: 100%;
+//   border: 1px solid red;
+//   .example-thumb{
+//     background-color: rgb(0, 174, 255);
+//     width: 20px;
+//     height: 20px;
+//     border-radius: 50%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     color: #fff;
+//     &:focus {
+//       outline: none;
+//     }
+//     .example-track{
+
+//       top: 20px;
+//       height: 10px ;
+//     }
+//     .example-track-1 {
+//       background-color: blue;
+
+//     }
+//     .example-track-2 {
+//       background-color: red;
+//     }
+//   }
+//   // .example-th
+// }
+
+.horizontal-slider {
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+  // margin: 100px;
+}
+
+.horizontal-slider .example-track {
+  top: 7px;
+  height: 5px;
+}
+
+.example-track.example-track-0 {
+  background: #dae3f4;
+}
+
+.example-track.example-track-1 {
+  background: #3c5df9;
+}
+
+.example-track.example-track-2 {
+  background: #dae3f4;
+}
+
+.horizontal-slider .example-thumb {
+  top: 1px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 0;
+  text-align: center;
+  background-color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 0px #000;
+  // box-sizing: border-box;
+}
+
+.horizontal-slider .example-thumb:focus {
+  outline: none;
+  border: 1px solid #3c5df9;
+}

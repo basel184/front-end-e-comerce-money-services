@@ -1,0 +1,29 @@
+span.numberquailty{
+    width: 55px;
+    height:30px;
+    margin-bottom: 10px;
+    border-radius:5px;
+}
+span img{
+    margin: auto;
+    width: 100px;
+    height:fit-content;
+}
+.color{
+    background-color: #ffb61e;
+}
+ .first-col{
+   
+    border-radius:  20px 20px  0px 0px;
+
+}
+.first-col li{
+    padding:5px;
+}
+td img .img-details{ 
+    width: 200px;
+}
+tbody, td, tfoot, th, thead ,tr {
+    border-style: none !important;
+}
+

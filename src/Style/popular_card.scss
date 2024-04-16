@@ -1,0 +1,61 @@
+.pop-card-container{
+    background-color: #F6F7F8;
+   // background: pink; 
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Cairo', sans-serif !important;
+
+    
+    .cardTop{
+        display: flex;
+        justify-content: center;
+        height: 60%;
+         .cardImg{
+            height: 100%;
+            max-width: 100%;
+            border-radius: 25px;
+        } 
+    }
+    .cardBottom{
+
+        height: 35%;
+       // background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #win-opo{
+            font-weight: 600;
+            font-family: 'Cairo', sans-serif !important;
+
+        }
+        #card-title{
+            font-family: 'Cairo', sans-serif !important;
+            font-weight: 800;
+            margin-top: -18px;            
+        }
+        #card-price{
+            
+            font-size: 1.8rem;
+            font-weight:900;
+            color: #ffb61e;
+            margin-top: -5px;
+            
+        }
+        #card-prog{
+            font-family: 'Cairo', sans-serif !important;
+            font-size: 0.9rem;
+            margin-bottom: 4px;
+        }
+        
+    }
+}
+
+//#262A2E forsa arb7
+// title #282626
+// mwd3d al a8laq #2B2A33

@@ -1,0 +1,47 @@
+.pop-card-container {
+  background-color: #F6F7F8;
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Cairo", sans-serif !important;
+}
+.pop-card-container .cardTop {
+  display: flex;
+  justify-content: center;
+  height: 60%;
+}
+.pop-card-container .cardTop .cardImg {
+  height: 100%;
+  max-width: 100%;
+  border-radius: 25px;
+}
+.pop-card-container .cardBottom {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pop-card-container .cardBottom #win-opo {
+  font-weight: 600;
+  font-family: "Cairo", sans-serif !important;
+}
+.pop-card-container .cardBottom #card-title {
+  font-family: "Cairo", sans-serif !important;
+  font-weight: 800;
+  margin-top: -18px;
+}
+.pop-card-container .cardBottom #card-price {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #ffb61e;
+  margin-top: -5px;
+}
+.pop-card-container .cardBottom #card-prog {
+  font-family: "Cairo", sans-serif !important;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}/*# sourceMappingURL=popular_card.css.map */

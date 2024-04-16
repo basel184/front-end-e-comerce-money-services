@@ -1,0 +1,26 @@
+.Card-container {
+  display: flex;
+  width: 600px;
+  padding: 10px;
+}
+.Card-container .img-container {
+  flex: 1;
+}
+.Card-container .img-container img {
+  width: 100%;
+}
+.Card-container .info {
+  flex: 2;
+}
+.Card-container .info .product_price {
+  font-weight: 700;
+}
+.Card-container .info .product_desc {
+  height: 70px;
+}
+.Card-container .info .grid-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}/*# sourceMappingURL=storeCard_newDesign.css.map */

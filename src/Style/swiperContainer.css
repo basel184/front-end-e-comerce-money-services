@@ -1,0 +1,75 @@
+.swiper-soldout-container {
+  background-color: #ffb61e;
+  border-radius: 20px;
+  padding: 30px;
+}
+.swiper-soldout-container .swiper-button-next,
+.swiper-soldout-container .swiper-button-prev {
+  color: #22262A !important; /* Replace with your desired color code */
+}
+.swiper-soldout-container .swiper_title {
+  margin: 10px;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+.swiper-soldout-container .swiper_title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 45%;
+  bottom: -40%;
+  width: 10%;
+  height: 3px;
+  background-color: white;
+}
+.swiper-soldout-container .swip-card-container {
+  background-color: #FFFFFF;
+  height: 300px !important;
+  width: 250px !important;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Cairo", sans-serif !important;
+}
+.swiper-soldout-container .swip-card-container .cardTop {
+  display: flex;
+  justify-content: center;
+  height: 60% !important;
+}
+.swiper-soldout-container .swip-card-container .cardTop .cardImg {
+  height: 100%;
+  max-width: 100%;
+  border-radius: 25px;
+}
+.swiper-soldout-container .swip-card-container .cardBottom {
+  height: 30% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.swiper-soldout-container .swip-card-container .cardBottom #win-opo {
+  font-weight: 600;
+  font-family: "Cairo", sans-serif !important;
+}
+.swiper-soldout-container .swip-card-container .cardBottom #card-title {
+  font-family: "Cairo", sans-serif !important;
+  font-weight: 800;
+  margin: 0px;
+}
+.swiper-soldout-container .swip-card-container .cardBottom #card-date {
+  font-family: "Cairo", sans-serif !important;
+  font-weight: 600;
+  margin: 15px 0px 0 0;
+}
+.swiper-soldout-container .swip-card-container .cardBottom #card-date #with-dte {
+  font-size: 15px;
+}
+.swiper-soldout-container .swip-card-container .cardBottom #card-date-span {
+  background-color: #ffb61e;
+  padding: 1px 16px;
+  border-radius: 20px;
+  margin: 0 5px;
+}/*# sourceMappingURL=swiperContainer.css.map */

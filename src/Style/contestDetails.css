@@ -1,0 +1,112 @@
+.contest-container {
+  margin: 60px 0;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 80px;
+}
+.bottom-container .Right {
+  background-color: #FAFAFB;
+  height: 400px;
+  border-radius: 5px;
+  color: #ffb61e;
+  font-weight: 600;
+  /*  h6::after {
+      right: 91%;
+      transform: translateX(-50%);
+      width: 14%;
+      background-color: #ffb61e;
+  } */
+}
+.bottom-container .Right h6 {
+  position: relative;
+  display: inline-block;
+  padding: 30px;
+  width: 100%;
+}
+.bottom-container .Right h6::before,
+.bottom-container .Right h6::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+}
+.bottom-container .Right h6::before {
+  left: 0;
+  width: 100%;
+  background-color: #EFF0F2;
+}
+.bottom-container .Right h6::after {
+  left: 91%;
+  transform: translateX(-50%);
+  width: 14%;
+  background-color: #ffb61e;
+}
+.bottom-container .Right .desc {
+  padding: 30px;
+  font-family: "Cairo", sans-serif !important;
+  color: #262626;
+}
+.bottom-container .Left {
+  border-radius: 5px;
+  background-color: #FFA81E;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-container .Left .top {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 30px 20px;
+  margin-bottom: -50px;
+}
+.bottom-container .Left .top h4 {
+  color: #676A6C;
+  font-weight: 700;
+}
+.bottom-container .Left .top h6 {
+  color: white;
+  margin: 0;
+}
+.bottom-container .Left .swiper-bottom {
+  flex: 5;
+  width: 100%;
+}
+.bottom-container .Left .swiper-bottom img {
+  width: 130px;
+  height: 230px;
+}
+.bottom-container .Left .swiper-button-next,
+.bottom-container .Left .swiper-button-prev {
+  color: white !important; /* Replace with your desired color code */
+}
+
+.share-btns {
+  width: 70%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60px auto;
+}
+.share-btns .facebook_share-contest {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px !important;
+  background-color: #385C8E !important;
+  color: white !important;
+}
+.share-btns .twitter_share-contest {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px !important;
+  background-color: #03A9F4 !important;
+  color: white !important;
+}/*# sourceMappingURL=contestDetails.css.map */

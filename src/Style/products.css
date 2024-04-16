@@ -1,0 +1,99 @@
+.container .store_product {
+  position: relative;
+}
+.container .store_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.container .product_operation {
+  display: flex;
+}
+.container .product_operation button {
+  background-color: transparent;
+  border: none;
+}
+.container .store_product .img {
+  position: relative;
+}
+.container .store_product .img img {
+  width: 100%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.container .store_product .img:hover .operation {
+  display: flex;
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+}
+.container .store_product .img .operation {
+  position: absolute;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.637);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.container .store_product .img .operation .product_preview,
+.container .store_product .img .operation .product_add_to_cart {
+  margin: 0 8px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+}
+.container .store_product .img .operation .product_preview:hover,
+.container .store_product .img .operation .product_add_to_cart:hover {
+  color: #ffb61e;
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+}
+.container .store_product .product_info {
+  text-align: center;
+  margin: 4px 0;
+}
+.container .store_product .product_info .product_head {
+  font-size: 16px;
+}
+.container .store_product .product_info .product_price {
+  color: #ffb61e;
+  font-size: 24px;
+}
+.container .store_product .product_info .p-progressbar-value {
+  position: relative;
+  display: block;
+  background-color: #ffb61e;
+  color: #000;
+}
+.container ul {
+  padding: 0 6px;
+}
+.container ul .category_title {
+  margin: 10px 0;
+  cursor: pointer;
+}
+.container ul .category_title:hover {
+  color: #ffb61e;
+  transition: all 0.6 ease;
+  -webkit-transition: all 0.6 ease;
+  -moz-transition: all 0.6 ease;
+  -ms-transition: all 0.6 ease;
+  -o-transition: all 0.6 ease;
+}/*# sourceMappingURL=products.css.map */

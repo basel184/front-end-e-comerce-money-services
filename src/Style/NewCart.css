@@ -1,0 +1,40 @@
+.row-border {
+  border-bottom: 3px solid #E8E8E8 !important;
+  font-family: "Cairo", sans-serif !important;
+  color: black;
+  font-weight: 600 !important;
+}
+
+#prod-image {
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#counter {
+  background-color: white;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+#counter button {
+  outline: 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: white;
+  color: #ffb61e;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 10px;
+}
+
+#total {
+  color: #ffb61e;
+}/*# sourceMappingURL=NewCart.css.map */

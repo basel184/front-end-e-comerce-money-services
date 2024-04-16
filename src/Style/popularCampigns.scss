@@ -1,0 +1,34 @@
+.campaigns-container{
+        padding: 40px 0 ;
+
+        .campaigns_title {
+            font-size: 20px;
+            margin: 10px ;
+            font-weight: bold;
+            text-align: center;   
+            position: relative;
+        }
+        .campaigns_title::after{
+            content: '';
+            position: absolute;
+            display: block;
+            left: 45%;
+            bottom: -40%;
+            width: 10%;
+            height: 3px;
+            background-color: #ffb61e;
+        }
+        .pop-btn{
+            text-decoration: none !important;
+            background-color: transparent;
+            color: #ffb61e;
+            display: flex;
+            padding: 6px;
+            border-bottom: 2px solid #ffb61e;
+            width: 120px;
+            margin: auto;
+            justify-content: center;
+            cursor: pointer;
+        }
+        
+    }

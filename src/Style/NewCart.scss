@@ -1,0 +1,40 @@
+.row-border{
+    border-bottom: 3px solid #E8E8E8 !important ;
+    font-family: 'Cairo', sans-serif !important;
+    color: black;
+    font-weight: 600 !important;
+
+}
+
+#prod-image{
+    border-radius: 8px;
+    width: 150px;
+    height: 150px ;
+    object-fit: cover;
+}
+
+#counter{
+    background-color: white;
+    height: fit-content;
+    width:fit-content ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //padding: 10px;
+    margin: auto;
+    button{
+        outline: 0;
+        box-sizing: border-box;
+        border: none;
+        background-color: white;
+        color: #ffb61e;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0 10px;
+    }
+}
+
+#total{
+    color:#ffb61e;
+}
+

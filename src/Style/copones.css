@@ -1,0 +1,40 @@
+
+.line{
+    border-style: dashed;
+    margin-bottom: 2PX;
+    margin-top: 1PX;
+    color: grey;
+}
+.img-copones:lang(en){
+    padding: 20px;
+    background-color: rgb(221, 226, 231) !important;
+    border-radius: 0px 34px 34px 0px
+}
+.copones-content .item-1:lang(en){
+    padding:25px;
+
+    width: 2000px !important;
+    border-radius: 34px 0px  0px 34px;
+
+    background-color: rgb(221, 226, 231) !important;
+}
+.copones-content .item-1 {
+    padding:25px;
+
+    width: 2000px !important;
+    border-radius: 0px 34px 34px 0px ;
+
+    background-color: rgb(221, 226, 231) !important;
+}
+.img-copones{
+
+    padding: 20px;
+    background-color: rgb(221, 226, 231) !important;
+    border-radius: 34px 0px 0px 34px ;
+    
+}
+.img-copones img{
+    width: 100px;
+    margin-top: 20px;
+     height: 100px;
+}

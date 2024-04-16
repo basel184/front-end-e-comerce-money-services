@@ -1,0 +1,65 @@
+.user {
+    .user_info {
+        display: flex;
+        border-bottom: 1px solid #eee;
+        flex-direction: row-reverse;
+        padding: 0 0 10px;
+        img {
+            width: 250px;
+        }
+        .user_name {
+            text-transform: capitalize;
+            margin: 0 10px;
+        }
+    }
+    .user_copones {
+        margin: 30px 0;
+        .copone_tap {
+            display: flex;
+        }
+        .copone_head {
+            text-transform: capitalize;
+            border-bottom: 1px solid #eee;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .copone,
+        .cancel {
+            margin: 10px 6px;
+            padding: 14px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            svg {
+                font-size: 25px;
+                
+            }
+        }
+        .copone {
+            background-color: #ffb61e;
+        }
+        .cancel {
+            background-color: #ff0000ba;
+        }
+    }
+    .order {
+        margin: 20px 0;
+        .order_title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .order_content {
+            background-color: #eee;
+            padding: 10px;
+            margin: 10px 0;
+            img {
+                width: 160px;
+            }
+            .product_title {
+                font-size: 16px;
+            }
+        }
+    }
+}

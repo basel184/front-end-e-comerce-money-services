@@ -1,0 +1,23 @@
+.add_reviews div {
+  display: block;
+}
+.add_reviews div label {
+  display: block;
+  margin: 6px 0;
+}
+.add_reviews div input {
+  width: 30%;
+}
+.add_reviews div button {
+  margin-top: 6px;
+  background-color: #ffb61e;
+  color: #fff;
+  border-color: #ffb61e;
+}
+.add_reviews div .reviews_error {
+  background-color: rgba(255, 0, 0, 0.4117647059);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  color: #fff;
+}/*# sourceMappingURL=reviews.css.map */
